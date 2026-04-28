@@ -4,10 +4,8 @@ name: Backend Build
 on:
   push:
     branches: [ main ]
-    paths: [ 'backend-springboot/**' ]  
   pull_request:
     branches: [ main ]
-    paths: [ 'backend-springboot/**' ]
 
 jobs:
   build:
